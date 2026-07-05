@@ -83,13 +83,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Analyze social networks with graph theory. Upload data, visualize connections, find influencers and communities.",
       },
-      { property: "og:title", content: "GraphConnect Analytics" },
+      { property: "og:title", content: "GraphConnect Analytics — Social Network Analysis" },
       {
         property: "og:description",
         content: "Interactive social network analysis powered by graph theory.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "GraphConnect Analytics — Social Network Analysis" },
+      { name: "description", content: "Analyze social networks with graph theory. Upload data, visualize connections, find influencers and communities." },
+      { property: "og:description", content: "Analyze social networks with graph theory. Upload data, visualize connections, find influencers and communities." },
+      { name: "twitter:description", content: "Analyze social networks with graph theory. Upload data, visualize connections, find influencers and communities." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1278c0d4-4db4-4949-8338-d525dfe41f64/id-preview-af1f0a15--081465a5-3899-41c5-8708-dbba0c5011c9.lovable.app-1783235822532.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1278c0d4-4db4-4949-8338-d525dfe41f64/id-preview-af1f0a15--081465a5-3899-41c5-8708-dbba0c5011c9.lovable.app-1783235822532.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
